@@ -47,12 +47,6 @@ export default class Barcode extends PureComponent {
     };
   }
 
-  componentWillUpdate(nextProps) {
-    if (nextProps.value !== this.props.value) {
-      this.update(nextProps);
-    }
-  }
-
   componentDidMount() {
     this.update();
   }
