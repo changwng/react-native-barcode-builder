@@ -175,6 +175,5 @@ export default class Barcode extends PureComponent {
 const styles = StyleSheet.create({
   svgContainer: {
     alignItems: 'center',
-    padding: 10
   }
 });
